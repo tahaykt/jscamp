@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "lite-server"
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,12 @@
   "author": "Taha Yakıt",
   "license": "MIT",
   "dependencies": {
-    "es6-module-loader":"^0.17.11",
+    "es-module-loader": "^2.3.0",
+    "es6-module-loader": "^0.17.11",
+    "esm": "^3.2.25",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "lite-server":"^2.2.0"
+    "lite-server": "^2.2.0"
   }
-
-  }
+}
